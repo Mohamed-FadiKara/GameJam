@@ -3,7 +3,7 @@ pygame.init()
 
 #création de la fenetre
 
-pygame.display.set_mode((1920,1080))
+pygame.display.set_mode((800,600))
 pygame.display.set_caption("IUT2 Adventure")
 
 running = True
