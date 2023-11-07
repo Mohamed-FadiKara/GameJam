@@ -15,7 +15,7 @@ class Game:
         map_layer = pyscroll.orthographic.BufferedRenderer(map_data,self.screen.get_size())
 
         #GENERER LE JOUEUR
-        self.player = Player()
+        self.player = Player(100,50)
 
 
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=1)
@@ -26,6 +26,7 @@ class Game:
 
         while running:
 
+            self.group.update()
             self.group.draw(self.screen)
             pygame.display.flip()
 
