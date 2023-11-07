@@ -2,6 +2,7 @@ import pygame
 import pytmx
 import pyscroll
 
+from Player import Player
 
 
 class Game:
@@ -13,7 +14,12 @@ class Game:
         map_data = pyscroll.data.TiledMapData(tmx_data)
         map_layer = pyscroll.orthographic.BufferedRenderer(map_data,self.screen.get_size())
 
+        #GENERER LE JOUEUR
+        self.player = Player()
+
+
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=1)
+        self.group.add(self.player)
 
     def run(self):
         running = True
