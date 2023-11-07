@@ -2,7 +2,6 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="nature.tsx"/>
  <tileset firstgid="721" name="iut2" tilewidth="16" tileheight="16" tilecount="1330" columns="35">
-  <image source="../../../Downloads/imageonline-co-pixelated_1.png" trans="ffffff" width="565" height="613"/>
  </tileset>
  <tileset firstgid="2051" source="route.tsx"/>
  <tileset firstgid="6851" source="route inverse.tsx"/>
