@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0d57d6-bffe-4bb7-bff1-bbdc6bc18fe0" name="Changes" comment="carte à jour">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="ec0d57d6-bffe-4bb7-bff1-bbdc6bc18fe0" name="Changes" comment="Mouvement joueur">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Joueur/sprit.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte/IUT.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carte/IUT.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,8 @@
       <workItem from="1699279335461" duration="6318000" />
       <workItem from="1699394099628" duration="752000" />
       <workItem from="1699396848369" duration="558000" />
-      <workItem from="1699439435885" duration="351000" />
+      <workItem from="1699439435885" duration="410000" />
+      <workItem from="1699439869425" duration="13141000" />
     </task>
     <task id="LOCAL-00001" summary="Classe joueur à jour">
       <option name="closed" value="true" />
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699368215510</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mouvement joueur">
+      <option name="closed" value="true" />
+      <created>1699439820400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699439820400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,12 +165,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classe joueur à jour" />
     <MESSAGE value="carte à jour" />
-    <option name="LAST_COMMIT_MESSAGE" value="carte à jour" />
+    <MESSAGE value="Mouvement joueur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mouvement joueur" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameJam$game.coverage" NAME="game Coverage Results" MODIFIED="1699352605373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699396849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Player_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699439692993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Player_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699464086176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameJam$main.coverage" NAME="main Coverage Results" MODIFIED="1699368109348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
