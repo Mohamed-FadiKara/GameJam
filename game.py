@@ -21,12 +21,6 @@ class Game:
         player_position = tmx_data.get_object_by_name("player")
         self.player = Player(player_position.x,player_position.y)
 
-        #collisions
-        self.walls = []
-        for obj in tmx_data.objects:
-            if obj.type == "collision":
-                self.walls.append(pygame.Rect(obj.x, obj.y, obj.width, obj.height))
-
         #dessin groupes calques
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=5)
         self.group.add(self.player)
@@ -35,9 +29,15 @@ class Game:
         enter_iut = tmx_data.get_object_by_name("enter_iut")
         self.enter_iut_rect = pygame.Rect(enter_iut.x, enter_iut.y, enter_iut.width, enter_iut.height)
 
+        # collisions
+        self.walls = []
+        for obj in tmx_data.objects:
+            if obj.type == "collision":
+                self.walls.append(pygame.Rect(obj.x, obj.y, obj.width, obj.height))
+
     def switch_house(self):
 
-        self.map = "world"
+        self.map = "house"
         tmx_data = pytmx.util_pygame.load_pygame('carte/IUT.tmx')
         map_data = pyscroll.data.TiledMapData(tmx_data)
         map_layer = pyscroll.orthographic.BufferedRenderer(map_data, self.screen.get_size())
@@ -57,9 +57,9 @@ class Game:
         self.enter_iut_rect = pygame.Rect(enter_iut.x, enter_iut.y, enter_iut.width, enter_iut.height)
 
         # Intérieur
-        spawn_iut_point = tmx_data.get_object_by_name("spawn_iut")
+        spawn_iut_point = tmx_data.get_object_by_name("spawn_IUT")
         self.player.position[0] = spawn_iut_point.x
-        self.player.position[1] = spawn_iut_point.y - 20
+        self.player.position[1] = spawn_iut_point.y
 
     def switch_world(self):
 
@@ -83,9 +83,9 @@ class Game:
         self.enter_iut_rect = pygame.Rect(enter_iut.x, enter_iut.y, enter_iut.width, enter_iut.height)
 
         # Intérieur
-        spawn_iut_point = tmx_data.get_object_by_name("enter_iut_exit")
+        spawn_iut_point = tmx_data.get_object_by_name('enter_iut_exit')
         self.player.position[0] = spawn_iut_point.x
-        self.player.position[1] = spawn_iut_point.y + 20
+        self.player.position[1] = spawn_iut_point.y
 
 
     def update(self):
@@ -93,12 +93,13 @@ class Game:
         # Vérifier l'entrer de la maison
         if self.map == "world" and self.player.feet.colliderect(self.enter_iut_rect):
             self.switch_house()
+            self.map = 'house'
 
         if self.map == "house" and self.player.feet.colliderect(self.enter_iut_rect):
             self.switch_world()
-
-            # Vérification des collisions
-            for sprite in self.group.sprites():
+            self.map = 'world'
+        # Vérification des collisions
+        for sprite in self.group.sprites():
                 if sprite.feet.collidelist(self.walls) > -1:
                     sprite.move_back()
 
@@ -138,4 +139,6 @@ class Game:
             clock.tick(60)
 
         pygame.quit()
+
+
 
