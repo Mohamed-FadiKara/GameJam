@@ -32,7 +32,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Objects">
-  <object id="1" name="house_exit" x="175.933" y="383" width="31.6284" height="15.8142"/>
+  <object id="1" name="iut_exit" x="175.933" y="384.483" width="31.6284" height="14.3316"/>
   <object id="2" name="spawn_IUT" x="193.23" y="354.337">
    <point/>
   </object>
