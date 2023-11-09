@@ -447,7 +447,7 @@
   <object id="63" type="collision" x="2.66667" y="952" width="788.667" height="5.33333"/>
   <object id="66" type="collision" x="0.666667" y="1.33333" width="2.66667" height="949.333"/>
   <object id="67" type="collision" x="112.667" y="0.666667" width="45.3333" height="6"/>
-  <object id="71" name="NPC" x="273.333" y="306">
+  <object id="71" name="NPC" x="260.667" y="246">
    <point/>
   </object>
   <object id="72" name="dialog" x="227.333" y="292.667" width="86" height="51.3333"/>

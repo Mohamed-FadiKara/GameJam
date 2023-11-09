@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0d57d6-bffe-4bb7-bff1-bbdc6bc18fe0" name="Changes" comment="Mouvement joueur">
-      <change afterPath="$PROJECT_DIR$/dialog.py" afterDir="false" />
+    <list default="true" id="ec0d57d6-bffe-4bb7-bff1-bbdc6bc18fe0" name="Changes" comment="Ajout boîte de dialogue et NPC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carte/DONJON.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte/DONJON.tmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carte/IUT.tmx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/carte/carte.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte/carte.tmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699439820400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout boîte de dialogue et NPC">
+      <option name="closed" value="true" />
+      <created>1699497556729</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699497556729</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,12 +172,13 @@
     <MESSAGE value="Classe joueur à jour" />
     <MESSAGE value="carte à jour" />
     <MESSAGE value="Mouvement joueur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mouvement joueur" />
+    <MESSAGE value="Ajout boîte de dialogue et NPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout boîte de dialogue et NPC" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameJam$game.coverage" NAME="game Coverage Results" MODIFIED="1699352605373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699396849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Player_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699497472812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Player_py$main.coverage" NAME="main Coverage Results" MODIFIED="1699539609151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameJam$main.coverage" NAME="main Coverage Results" MODIFIED="1699368109348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="23">
  <tileset firstgid="1" source="donjon2.tsx"/>
  <tileset firstgid="257" source="donjon.tsx"/>
  <layer id="1" name="Calque de Tuiles 1" width="30" height="30">
@@ -70,4 +70,29 @@
 0,0,0,0,0,0,0,0,0,0,0,0,34,179,180,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="1" type="collision" x="122.165" y="179.689" width="8.89548" height="22.5352"/>
+  <object id="2" type="collision" x="142.328" y="134.618" width="13.0467" height="18.384"/>
+  <object id="3" type="collison" x="72.9429" y="131.06" width="12.4537" height="21.9422"/>
+  <object id="4" x="78.8732" y="196.294" width="9.48851" height="21.3491"/>
+  <object id="5" type="collision" x="90.1408" y="304.818" width="7.11638" height="23.7213"/>
+  <object id="6" type="collision" x="122.165" y="339.214" width="8.89548" height="23.1282"/>
+  <object id="7" type="collision" x="288.213" y="356.412" width="10.0815" height="20.7561"/>
+  <object id="8" type="collision" x="345.145" y="338.621" width="11.2676" height="23.7213"/>
+  <object id="9" x="346.331" y="290.586" width="7.70941" height="24.9073"/>
+  <object id="10" type="collision" x="313.121" y="225.945" width="11.2676" height="24.9073"/>
+  <object id="11" type="collision" x="359.377" y="211.119" width="13.0467" height="24.9073"/>
+  <object id="12" type="collision" x="316.086" y="143.514" width="7.70941" height="27.8725"/>
+  <object id="13" type="collision" x="340.993" y="120.385" width="20.7561" height="20.7561"/>
+  <object id="14" type="collision" x="105.56" y="224.759" width="8.89548" height="23.1282"/>
+  <object id="15" type="collision" x="65.2335" y="115.641" width="271.609" height="10.6746"/>
+  <object id="16" type="collision" x="364.715" y="110.304" width="17.791" height="15.4188"/>
+  <object id="17" type="collision" x="57.5241" y="125.723" width="5.93032" height="260.934"/>
+  <object id="19" type="collision" x="383.099" y="128.095" width="6.52335" height="263.306"/>
+  <object id="20" type="collision" x="68.1987" y="383.099" width="311.342" height="6.52335"/>
+  <object id="21" name="iut2_exit" x="216.457" y="371.831" width="15.4188" height="7.70941"/>
+  <object id="22" name="spawn_iut2" x="209.34" y="327.354">
+   <point/>
+  </object>
+ </objectgroup>
 </map>
