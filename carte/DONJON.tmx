@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="31">
  <tileset firstgid="1" source="donjon2.tsx"/>
  <tileset firstgid="257" source="donjon.tsx"/>
  <layer id="1" name="background" width="30" height="30">
@@ -10,8 +10,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,33,7,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,5,0,0,0,0,
-0,0,49,23,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,20,5,0,0,0,0,
+0,0,33,7,3,3,3,3,3,3,3,3,3,171,172,3,3,3,3,3,3,3,3,3,4,5,0,0,0,0,
+0,0,49,23,19,19,19,19,19,19,19,19,19,171,172,19,19,19,19,19,19,19,19,19,20,5,0,0,0,0,
 0,0,49,153,203,146,146,146,146,146,146,146,146,146,146,146,146,146,146,146,147,146,147,157,158,5,0,0,0,0,
 0,0,49,153,203,162,162,162,162,162,162,162,162,162,162,162,162,162,162,146,146,146,147,157,158,5,0,0,0,0,
 0,0,49,153,203,178,178,178,178,178,178,178,178,178,178,146,147,180,149,147,148,149,147,157,158,5,0,0,0,0,
@@ -104,4 +104,27 @@
 0,0,0,0,0,0,0,0,0,0,0,0,34,179,180,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="3" type="collision" x="45.0704" y="394.96" width="358.192" height="8.30246"/>
+  <object id="4" type="collision" x="397.851" y="122.165" width="6.59694" height="265.601"/>
+  <object id="5" type="collision" x="47.5898" y="124.758" width="8.67857" height="268.644"/>
+  <object id="7" type="collision" x="52.7801" y="112.083" width="340.4" height="10.0815"/>
+  <object id="8" name="enter_iut2" x="215.863" y="124.537" width="13.6397" height="10.6746"/>
+  <object id="9" type="collision" x="112.676" y="182.061" width="8.89548" height="16.0119"/>
+  <object id="10" type="collision" x="98.4433" y="189.77" width="11.8606" height="11.2676"/>
+  <object id="11" type="collision" x="94.8851" y="243.736" width="10.0815" height="22.5352"/>
+  <object id="12" type="collision" x="101.408" y="316.086" width="17.791" height="9.48851"/>
+  <object id="13" type="collision" x="87.7687" y="356.412" width="13.6397" height="20.7561"/>
+  <object id="14" type="collision" x="294.144" y="336.842" width="16.6049" height="22.5352"/>
+  <object id="15" type="collision" x="342.772" y="313.714" width="16.6049" height="12.4537"/>
+  <object id="17" type="collision" x="342.179" y="138.176" width="16.6049" height="13.0467"/>
+  <object id="18" type="collision" x="135.211" y="227.131" width="13.0467" height="23.7212"/>
+  <object id="20" name="spawn_iut" x="208.15" y="329.702">
+   <point/>
+  </object>
+  <object id="24" name="iut_exit" x="216.76" y="392.424" width="10.8252" height="10.5724" rotation="269.769"/>
+  <object id="28" name="enter_iut2_exit" x="223.333" y="180.667">
+   <point/>
+  </object>
+ </objectgroup>
 </map>

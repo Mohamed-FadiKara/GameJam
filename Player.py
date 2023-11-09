@@ -1,11 +1,10 @@
 import pygame
 
 
-class Player(pygame.sprite.Sprite):
-
-    def __init__(self,x,y):
+class Entity(pygame.sprite.Sprite):
+    def __init__(self,nom,x,y):
         super().__init__()
-        self.sprite_sheet = pygame.image.load('Joueur/sprite.png')
+        self.sprite_sheet = pygame.image.load(f'Joueur/{nom}.png')
         self.image = self.get_image(0,0)
         self.rect = self.image.get_rect()
         self.image.set_colorkey([0,0,0])
@@ -46,8 +45,14 @@ class Player(pygame.sprite.Sprite):
     def get_image(self, x,y):
         image = pygame.Surface([50,64])
         image.blit(self.sprite_sheet, (0,0),(x,y,44,64))
-        print(" image du Player ")
         return image
 
+
+class Player(Entity):
+    def __init__(self, x, y):
+        super().__init__("sprite", x, y)
+class NPC(Entity):
+    def __init__(self, nom, x, y):
+        super().__init__(nom, x, y)
 
 
